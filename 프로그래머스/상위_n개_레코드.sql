@@ -1,0 +1,4 @@
+-- 이름을 출력, 날짜를 기준으로 정렬하는데, 하나만 출력
+SELECT NAME FROM ANIMAL_INS
+ORDER BY DATETIME
+LIMIT 1

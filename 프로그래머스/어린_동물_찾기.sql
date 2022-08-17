@@ -1,0 +1,5 @@
+-- 동물의 id와 이름을 출력하는데, 나이가 어린 동물들만, 정렬은 ANIMAL_ID 순으로
+SELECT ANIMAL_ID, NAME 
+FROM ANIMAL_INS
+WHERE INTAKE_CONDITION != 'Aged'
+ORDER BY ANIMAL_ID
